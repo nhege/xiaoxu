@@ -1,0 +1,27 @@
+#wen{
+	color: rgb(195, 195, 195);
+	line-height: 35vh;
+	font-size: 100px;
+	text-align: center;
+	font-family: "tahoma";
+}
+#hui{
+	color: rgb(88, 88, 88);
+	line-height: 70px;
+	font-size: 100px;
+	text-align: center;
+	font-family: "tahoma";
+}
+
+#zs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+#zhuozhe{
+	color: yellow;
+}
