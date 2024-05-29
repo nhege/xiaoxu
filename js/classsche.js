@@ -17,9 +17,9 @@ function determineWeek() {
     var weekNumber = Math.ceil((date.getDate() - (date.getDay() + 6) % 7) / 7);
     
     if (weekNumber % 2 === 0) {
-        document.addEventListener("DOMContentLoaded", function(event) {ny();});
-    } else {
         document.addEventListener("DOMContentLoaded", function(event) {nt();});
+    } else {
+        document.addEventListener("DOMContentLoaded", function(event) {ny();});
     }
 }
 determineWeek()
